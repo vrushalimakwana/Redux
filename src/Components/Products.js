@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { add } from '../Store/cartSlice';
 import { fetchProducts } from '../Store/productSlice';
-// import { STATUSES } from '../Store/productSlice';
+import { STATUSES } from '../Store/productSlice';
 
 const Products = () => {
     const dispatch = useDispatch();
